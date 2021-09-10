@@ -1,0 +1,171 @@
+@font-face {
+    font-family: fuente2;
+    src: url(../Menu/fuente/Bureau\ Grot\ Bold.otf);
+
+  }
+
+ @font-face {
+    font-family: per;
+    src: url(../Menu/fuente/HelveticaNeue.ttc);
+
+  }
+
+.menu{
+    margin: 20px 0 40px 20px!important;
+    font-size:12px ;
+    font-family:per !important;  
+    padding: 0% !important;
+    width: 98%;
+    background-color: transparent !important;
+    z-index: 100;
+    top: 0;
+    position: fixed;
+}
+
+
+.nombre{
+    padding: 0%  !important;
+    margin-right: 2px !important;
+    width: 170px;
+    text-align: left;
+    color: black;
+}
+
+.nombre:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.nombrejulia:hover{
+    text-decoration:none !important;
+    color: black;
+}
+
+/*.menu:hover >a {text-decoration: underline;}*/
+
+.signo{
+    padding: 0 !important;
+    margin-left: auto;
+    margin-right: 2px;
+}
+
+.imgSigno{
+    display: block; 
+    margin-left: auto;
+    width: 34px;
+    margin-right: -15px;
+}
+
+.activo{
+    text-decoration: underline;
+}
+
+
+.activoPregunta{
+   color: white;
+   
+}
+
+.Pregunta a{
+   color: white;
+
+}
+
+.Pregunta a:hover{
+    color: white;
+ 
+ }
+
+.filtro{
+    width: 240px;
+}
+
+#filtro1{
+    margin-right: 2%;
+    text-decoration: none !important;
+}
+
+.filtroOpcion{
+    text-decoration: underline;
+}
+
+.filtroAtras{
+    margin-left: 4%;
+}
+
+.filtroAtras:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+  
+@media (max-width:800px){
+    .nombre {
+        padding: 0% !important;
+        margin-right: 8.4% !important;
+        width: auto;
+        text-align: left;
+        color: black;
+    }
+
+    .imgSigno{
+        display: block; 
+        margin-left: auto;
+        margin-right: -2px;
+        width: 18px;
+    }
+
+    .menu{
+        /*background-color: burlywood !important;
+        border: brown ;
+         border-style: solid;*/
+        margin: 0 !important;
+        padding: 10px 0px 0px 9px !important;
+        font-size:13.2px ; 
+       
+    }
+    
+}
+
+
+
+
+@media (min-width:600px){
+    .nombre {
+        padding: 0% !important;
+        margin-right: 10% !important;
+        width: auto;
+        text-align: left;
+        color: black;
+    }
+
+    .signo{
+        padding: 0 !important;
+        margin-left: auto;
+        margin-right: 20px
+    }
+
+    .menu{
+        margin: 2vh 0 4vh 2vh !important;
+        font-size:12px ;
+        font-family:per !important;  
+        padding: 0% !important;
+        width: 98%;
+        background-color: transparent !important;
+        z-index: 100;
+        top: 0;
+        position: fixed;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+
+   
+}
+
+/* Portrait */
+@media screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait) {
+    .imgSigno{
+        margin-right: 7px; 
+    }
+ }

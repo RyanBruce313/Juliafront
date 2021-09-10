@@ -1,0 +1,187 @@
+@font-face {
+    font-family: fuente2;
+    src: url(../../Menu/fuente/Bureau\ Grot\ Bold.otf);
+
+  }
+
+ @font-face {
+    font-family: per;
+    src: url(../../Menu/fuente/HelveticaNeue.ttc);
+
+  }
+
+
+.shopNow {
+    color: black;
+}
+
+.shopNow:hover {
+    color: black;
+}
+
+.labelShop{
+    text-align: left;
+    width: 70%;
+    font-size: 11px;
+}
+
+.labelShopBold{
+    font-size: 11.7px;
+    font-family: fuente2;
+}
+
+.labelItems{
+    font-family: per;
+    font-size: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.subShop{
+    font-family: per;
+    font-size: 12px;
+}
+
+.imgShop{
+    font-family: per;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.subShop:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.labelShop2{
+    text-align: right;
+    width: 30%;
+    font-size: 12px;
+}
+
+/*.imgSHOP{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}*/
+
+.precio{
+    font-size: 12px;
+    font-family: per;
+    margin-right: 15px;
+}
+
+.inputShop{
+    width: 100px;
+    height: 14px;
+    font-size: 11px;
+    font-family: per;
+    text-align: center;
+    line-height:0 !important;
+    background-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: black;
+    outline: none;
+}
+
+.itemsMenos{
+    width: 12px;
+    height: auto;
+}
+
+
+.margen{
+    padding-top: 60px !important;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    display: none !important;
+}
+
+.showInblock{
+    display: inline;
+}
+
+.precio2{
+    display: none;
+}
+
+
+.fade{
+    opacity: 1 !important;
+    -webkit-transition: none !important;
+   transition: none !important;
+  }
+  
+  .carousel-item {
+    opacity: 1 !important;
+    transition-property: none !important;
+    transform: none !important;
+  }
+  
+  .carousel-fade {
+    opacity: 1 !important;
+    transition-property: none !important;
+    transform: none !important;
+  }
+
+  .backShop{
+    display: none;
+    }
+
+
+@media (max-width:700px){
+    .itemsMenos{
+        display: none;
+    }
+    .showInblock{
+        margin-top: -3%;
+        display: block;
+    }
+
+    .precio2{
+        margin-top: -1%;
+        display: block;
+        font-size: 13.2px;
+    }
+
+    .precio{
+        display: none;
+    }
+
+    .margen{
+        padding-top: 16px !important;
+    }
+    
+    .backShop{
+        display: block;
+        margin-top: -15px;
+        min-height: 4px;
+    }
+
+    .labelShopBold{
+        margin-bottom: .2rem;
+    }
+
+    .labelShop{
+        font-size: 12px;
+    }
+    
+    .labelShopBold{
+        font-size: 12px;
+    }
+    
+    .labelItems{
+        font-size: 13.2px;
+    }
+    .subShop{
+        font-size: 13.2px;
+    }
+    
+    .imgShop{
+        font-size: 13.2px;
+    }
+}

@@ -1,0 +1,245 @@
+@font-face {
+    font-family: fuente2;
+    src: url(../Menu/fuente/Bureau\ Grot\ Bold.otf);
+
+  }
+
+ @font-face {
+    font-family: per;
+    src: url(../Menu/fuente/HelveticaNeue.ttc);
+
+  }
+
+  @font-face {
+    font-family: coverFont;
+    src: url(../Menu/fuente/JuliaWebFont-Regular.otf);
+  }
+
+.inicio{
+    height: 100vh;
+    /*max-width: 100%; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none !important;
+    border-color: transparent !important;
+    background-color: white;
+    object-fit: cover; 
+}
+
+.inicio2{
+    height: 95vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none !important;
+    border-color: transparent !important;
+    background-color: white;
+}
+
+.padre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none !important;
+    border-color: transparent !important;
+    background-color: white;
+    font-family:coverFont !important;
+    font-size: 7em ; 
+    
+    line-height: 0.65;
+    word-spacing: 10px;
+}
+.inicioImg{
+  text-align: center;
+    /*letter-spacing: 3px;*/
+}
+
+.inicioImg img{
+  vertical-align: middle;
+  width: 100%;
+}
+
+.imgCober{
+  padding-top: 30px ;
+  max-width: 1150px;
+}
+
+/*
+.footer-inicio{
+    height: 5vh;
+    font-size:13.2px ;
+    font-family:per !important;  
+    position: relative;
+    display: block;
+}*/
+
+
+.footer-inicio {
+  font-size: 12px;
+  font-family: per!important;
+  position: fixed;
+  width: 100%;
+  text-align: center !important;
+  bottom: 25px;
+  margin: 0 auto !important;
+}
+
+
+.myVideo {
+  position: fixed;
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.imgCobermobil{
+  display: none;
+}
+
+.imgCoberdes{
+  display: block;
+}
+
+.fade{
+  opacity: 1 !important;
+  -webkit-transition: none !important;
+ transition: none !important;
+}
+
+.carousel-item {
+  opacity: 1 !important;
+  transition-property: none !important;
+  transform: none !important;
+}
+
+.carousel-fade {
+  opacity: 1 !important;
+  transition-property: none !important;
+  transform: none !important;
+}
+
+.next{
+  background-color: rgba(0,0,0,0);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;  
+  z-index: 90;
+}
+
+@media (max-width:799px){
+  
+
+  .imgCober{
+    padding-top: 0 ;
+    max-width: 700px;
+  }
+
+  .footer-inicio {
+    bottom: 10px !important;
+  }
+
+}
+
+@media (max-width:760px){
+.imgCobermobil{
+  display: block;
+}
+
+.imgCoberdes{
+  display: none;
+}
+
+
+.footer-inicio {
+  font-size: 13.2px;
+}
+
+.padre {
+  height: 80vh;
+}
+
+.inicio2{
+  /*height: 80vh;*/
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none !important;
+  border-color: transparent !important;
+  background-color: white;
+ /* width: 100%;
+  height: 80vh;
+  position: relative;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  border: transparent!important;
+  background-color: #fff;*/
+}
+
+.imgMobil {
+  padding-top: 8vh;
+  vertical-align: middle;
+  width: 100%;
+}
+
+}
+
+
+@media  (orientation:landscape){
+  .videoIpad{
+    display: block !important;
+    /*min-width: 300px;
+    min-height: 300px;
+    background-color: #369;*/
+  }
+  .videoMobil{
+    display: none !important;
+   
+  }
+  .imgCober2{
+    padding-top: 60px !important;
+ }
+
+ .padre2{
+   height: 90vh !important;
+ }
+}
+
+/* Portrait */
+@media screen and (min-width:308px) and (max-width:1024px) and (orientation:portrait) {
+   .videoIpad{
+     display: none !important;
+     
+   }
+
+   .imgCober2{
+      padding-top: 30px !important;
+   }
+
+   .padre2{
+     height: 90vh !important;
+   }
+
+   .padingIpad{
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+
+   .videoMobil{
+    display: block !important;
+    /*min-width: 300px;
+    min-height: 300px;
+    background-color: rgb(160, 60, 35);*/
+  }
+ }

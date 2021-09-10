@@ -1,0 +1,325 @@
+@font-face {
+  font-family: fuente2;
+  src: url(../../Menu/fuente/Bureau\ Grot\ Bold.otf);
+}
+
+@font-face {
+  font-family: per;
+  src: url(../../Menu/fuente/HelveticaNeue.ttc);
+}
+
+.colapWork {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.labelBold {
+  font-size: 11.7px;
+  font-family: fuente2;
+  font-weight: 500;
+}
+
+.itemsWork {
+  font-family: per;
+  font-size: 12px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.itemsWork2 {
+  font-family: per;
+  font-size: 12px;
+  
+  margin-right: 4px;
+}
+
+.subWork {
+  font-family: per;
+  font-size: 12px;
+}
+
+.subWork1 {
+  font-family: per;
+  font-size: 12px;
+}
+
+.subWork:hover {
+  text-decoration: underline;
+}
+
+.subWork1:hover {
+  
+}
+
+.descriptionWork {
+  font-family: per;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.extra{
+  min-height:30px;
+  display: block;
+}
+
+.lazyImg {
+  width: 100%;
+  height: auto;
+}
+
+.lazyImgEsp {
+  width: auto;
+  max-height: 12.27vw;
+}
+
+.contentImgWork{
+  /*max-height: 25vw;*/
+}
+
+.contentImgWork2{
+  /*height: 25%;*/
+}
+
+.workImg {
+  width: 19.2%;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-right: 1% !important;
+  margin-top: 1% !important;
+  height: auto;
+  box-sizing:unset !important;
+}
+
+.workImgEsp{
+  width: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-right: 1% !important;
+  margin-top: 1% !important;
+  /* margin-top: 0.5% !important; */
+
+}
+
+.workImgEsp:last-child {
+  margin-right: 0% !important;
+}
+
+
+.workImg:last-child {
+  margin-right: 0% !important;
+}
+
+.div1 {
+  width: 40.6% !important;
+  /*padding-top: 70px !important;*/
+  padding-top: 50px !important;
+  padding-right: 20px !important;
+}
+
+.claseFinal{
+  margin-right: 0% !important;
+}
+
+
+
+.div2 {
+  width: 40.6% !important;
+  padding-top: 50px !important;
+  padding-right: 20px !important;
+  line-height: 1.2;
+  font-family: per;
+  font-size: 12px;
+  /*padding-bottom: 1em !important;*/
+}
+
+.div3 {
+  width: 18.8% !important;
+  padding-top: 50px !important;
+}
+
+.año2 {
+  display: none;
+  font-family: per;
+  font-size: 12px;
+}
+
+.descAno2{
+  font-family: per;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.desc2{
+  margin-left: auto;
+  padding-right: 2%;
+  font-family: per;
+  font-size: 12px;
+  text-align: right;
+  line-height: 1.3;
+}
+.flexdesc{
+  display: flex;
+}
+
+.subrayado12{
+  text-decoration: underline;
+  /*font-family: per !important;
+  font-size: 12px !important;*/
+}
+
+.mobilScreen{
+  display: none;
+}
+
+
+@media (max-width: 780px) {
+
+  .labelBold {
+    font-size: 12px;
+    font-family: fuente2;
+    font-weight: 500;
+  }
+
+  .iniSection{
+    margin-top: 8px;
+  }
+  .extra{
+    display: none;
+  }
+  .workImg {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    /* margin-right: 1.5% !important;
+    margin-top: 1.5% !important; */
+    margin: 4px 0 5px 0!important;
+  }
+
+  .workImgEsp{
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-right: 1.5% !important;
+    margin-top: 1.5% !important;
+  }
+
+  .lazyImgEsp {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+
+  .div1 {
+    width: 100% !important;
+    padding-top: 1.5% !important;
+    padding-right: 0px !important;
+    line-height: 1.3;
+  }
+
+  .div2 {
+    width: 100% !important;
+    padding-top: 1.5% !important;
+    padding-right: 7px !important;
+  }
+
+  .div3 {
+    width: 100% !important;
+    padding-top: 1.5% !important;
+  }
+
+  .colapWork {
+    display: block;
+    justify-content: center;
+  }
+
+  .año1 {
+    
+    display: none;
+  }
+
+  .año2 {
+    display: flex;
+    font-family: per;
+    font-size: 13.2px !important;
+  }
+
+  .desc2{
+    margin-left: auto;
+    font-family: per;
+    font-size: 13.2px !important;
+    text-align: right;
+  }
+
+  .descAno2{
+    font-size: 13.2px !important;
+  }
+
+  .fullScreen{
+    display: none;
+  }
+
+  .mobilScreen{
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
+    display: flex;
+    justify-content: space-between  ;
+    line-height: 1.3;
+    
+  }
+  .subrayado12{
+    text-decoration: underline;
+    /*font-family: per !important;
+    font-size: 12px !important;*/
+  }
+
+  .div2 {
+    padding-bottom: 0 !important;
+  }
+
+  .paddingMobil{
+    display: block;
+    min-width: 5px;
+    padding-bottom: 2%;
+  }
+
+  .subWork1 {
+    margin-left: 4px !important;
+    display: contents;
+  }
+
+  .descriptionWork {
+    line-height: 1.3;
+  }
+
+
+
+  .labelBold {
+    font-size: 12px;
+    font-family: fuente2;
+    font-weight: 500;
+  }
+  
+  .itemsWork {
+    font-family: per;
+    font-size: 13.2px;
+  }
+  
+  .itemsWork2 {
+    font-family: per;
+    font-size: 13.2px;
+  }
+  
+  .subWork {
+    font-family: per;
+    font-size: 13.2px;
+  }
+  
+  .subWork1 {
+    font-family: per;
+    font-size: 13.2px;
+  }
+  
+  .descriptionWork {
+    font-size: 13.2px;
+  }
+}
